@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{27F02F79-7205-4B54-8048-61A777076FD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{753075FE-076C-41A0-BA4B-2A7ABC6A45DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQC.Provider.Connector", "src\CQC.Provider.Connector\CQC.Provider.Connector.csproj", "{234C5C09-02F2-4D39-9499-D2AC567F2EED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQC.Provider.Connector.Tests", "tests\CQC.Provider.Connector.Tests\CQC.Provider.Connector.Tests.csproj", "{1287C8D7-EBBC-4BCC-B193-5584E95E78AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQC.Provider.Connector.Core", "src\CQC.Provider.Connector.Core\CQC.Provider.Connector.Core.csproj", "{FE45D145-A9EF-4058-90F0-583D2161197D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQC.Provider.Connector.Data", "src\CQC.Provider.Connector.Data\CQC.Provider.Connector.Data.csproj", "{4C3AC200-9545-4BCA-A905-901EF1F12590}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{57518843-5E64-4214-BC9F-EF272D7B77B4}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{234C5C09-02F2-4D39-9499-D2AC567F2EED} = {27F02F79-7205-4B54-8048-61A777076FD5}
+		{1287C8D7-EBBC-4BCC-B193-5584E95E78AE} = {753075FE-076C-41A0-BA4B-2A7ABC6A45DA}
+		{FE45D145-A9EF-4058-90F0-583D2161197D} = {27F02F79-7205-4B54-8048-61A777076FD5}
+		{4C3AC200-9545-4BCA-A905-901EF1F12590} = {27F02F79-7205-4B54-8048-61A777076FD5}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{234C5C09-02F2-4D39-9499-D2AC567F2EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{234C5C09-02F2-4D39-9499-D2AC567F2EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{234C5C09-02F2-4D39-9499-D2AC567F2EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{234C5C09-02F2-4D39-9499-D2AC567F2EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1287C8D7-EBBC-4BCC-B193-5584E95E78AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1287C8D7-EBBC-4BCC-B193-5584E95E78AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1287C8D7-EBBC-4BCC-B193-5584E95E78AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1287C8D7-EBBC-4BCC-B193-5584E95E78AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE45D145-A9EF-4058-90F0-583D2161197D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE45D145-A9EF-4058-90F0-583D2161197D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE45D145-A9EF-4058-90F0-583D2161197D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE45D145-A9EF-4058-90F0-583D2161197D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3AC200-9545-4BCA-A905-901EF1F12590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3AC200-9545-4BCA-A905-901EF1F12590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3AC200-9545-4BCA-A905-901EF1F12590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3AC200-9545-4BCA-A905-901EF1F12590}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

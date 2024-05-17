@@ -1,0 +1,6 @@
+@CQC.Provider.Connector_HostAddress = http://localhost:5100
+
+GET {{CQC.Provider.Connector_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

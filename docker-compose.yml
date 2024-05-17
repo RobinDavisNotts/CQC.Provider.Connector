@@ -1,0 +1,6 @@
+﻿services:
+  cqc.provider.connector:
+    image: cqc.provider.connector
+    build:
+      context: .
+      dockerfile: src/CQC.Provider.Connector/Dockerfile
